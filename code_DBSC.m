@@ -1,5 +1,5 @@
 
-function [Y_label, iter_num, obj] = DBSC(B,W, label,c)
+function [Y_label, iter_num, obj] = FDBC(B,W, label,c)
 % Input
 % B m*n anchor graph
 % label is initial label n*1
