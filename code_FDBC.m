@@ -9,6 +9,7 @@ function [Y_label, iter_num, obj] = FDBC(B,W, label,c)
 % Y_label is the label vector n*1
 % iter_num is the number of iteration
 % obj is the objective function value
+% It is written by Jingjing Xue
 
 
 [~,n] = size(B);
