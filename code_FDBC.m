@@ -1,10 +1,10 @@
 
 function [Y_label, iter_num, obj] = FDBC(B,W, label,c)
 % Input
-% B m*n anchor graph
+% B m*n anchor graph (Z in the paper)
 % label is initial label n*1
 % c is the number of clusters
-% W=B'*B similarity matrix with n*n size
+% W=B'*B similarity matrix with n*n size  (W=Z'*Z in the paper)
 % Output
 % Y_label is the label vector n*1
 % iter_num is the number of iteration
